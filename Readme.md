@@ -16,7 +16,7 @@
    cp src/.env.example src/.env
    ```
 
-3. **Отредактируйте файл `.env` при необходимости. По умолчанию проект использует:**
+3. **Отредактируйте файл `.env`:**
    ```env
    DB_CONNECTION=mysql
    DB_HOST=mysql
