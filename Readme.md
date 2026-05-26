@@ -41,7 +41,7 @@
    docker compose exec app php artisan key:generate
 
    # Применение миграций базы данных
-   docker compose exec app php artisan migrate
+   docker compose exec app php artisan migrate --seed
 
    # Установка прав доступа к хранилищу
    docker compose exec app chmod -R 775 storage bootstrap/cache
