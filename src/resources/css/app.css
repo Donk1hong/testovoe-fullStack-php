@@ -1,0 +1,66 @@
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.menu-item:hover .mega-menu {
+    display: block !important;
+}
+
+.sub-menu-item:hover .sub-mega-menu {
+    display: block !important;
+}
+
+.products-column {
+    min-height: 650px;
+}
+
+.pagination {
+    --bs-pagination-active-bg: #838080 !important;
+    --bs-pagination-active-border-color: #838080 !important;
+}
+
+.mega-menu {
+    min-width: 400px;
+    min-height: 100%;
+}
+
+.menu-wrapper {
+    min-width: 300px;
+    z-index: 10 !important;
+}
+
+.sub-mega-menu {
+    z-index: 1 !important;
+    width: 360px;
+    left: 12vh;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .catalog-container {
+        flex-wrap: wrap !important;
+    }
+
+    .sidebar-menu-column,
+    .products-column {
+        justify-content: center;
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .products-wrapper > .col {
+        width: 100% !important;
+    }
+
+    .pagination-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
