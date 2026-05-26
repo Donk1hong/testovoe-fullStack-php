@@ -56,4 +56,4 @@
 ## Доступ
 
 После выполнения всех шагов проект будет доступен по адресу:
-[http://localhost:8080](http://localhost:8080) (или [http://localhost](http://localhost), в зависимости от настроек Nginx)
+[http://localhost:8080](http://localhost:8080) 
